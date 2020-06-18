@@ -52,7 +52,7 @@ class Test(unittest.TestCase):
             os.system("adb shell pm uninstall com.yesway.mobile")
         else:
             print("不具有未卸载的APK")
-            apk_path='C://Users//Administrator//IdeaProjects//AutoAppium//APK//zhijiaxing.apk'
+            apk_path='H://Appium//APK//zhijiaxing.apk'
             os.system("adb install -d -r %s" % apk_path)
             print("APK安装成功")
 
@@ -63,14 +63,13 @@ class Test(unittest.TestCase):
         #downloadUrl='http://103.231.68.98/McDonald/e/6590479/0/0/0/1592203393770/package_6069.1592203393770'
         downloadUrl='http://103.231.68.98/McDonald/e/6527981/0/0/0/1592363503974/package_620.1592363503974'
         apk_response = requests.get(downloadUrl)
-        appLocation='C://Users//Administrator//IdeaProjects//AutoAppium//APK//'
+        appLocation='H://Appium//APK//'
         filename = appLocation+'zhijiaxing.apk'
-        APKDir=os.path.dirname(os.getcwd())
         list=[]
-        for j in os.listdir(APKDir+r"\AutoAppium\APK"):
+        for j in os.listdir("H://Appium//APK"):
             list.append(j)
         if('zhijiaxing.apk' in list):
-            os.remove(APKDir+r"\AutoAppium\APK\zhijiaxing.apk")
+            os.remove("H://Appium//APK//zhijiaxing.apk")
             print("含有未删除的APK,删除成功")
             for i in (1,10):
                 try:
