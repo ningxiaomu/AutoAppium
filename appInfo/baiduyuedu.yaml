@@ -1,0 +1,6 @@
+
+- APK: 百度阅读
+  info: 
+    appPackage: com.baidu.yuedu
+    appActivity: com.baidu.yuedu.splash.SplashActivity
+    startActivity: .base.ui.MainActivity

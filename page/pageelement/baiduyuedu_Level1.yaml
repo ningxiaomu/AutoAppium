@@ -1,0 +1,49 @@
+Level_1:
+  desc: 打开APP默认进入的 书城 页面,第一级界面
+  locators: 
+    - 
+      name: 书城_VIP全站去广告
+      by: desc
+      value: 为你限免
+      
+    -
+      name: 我的
+      by: id
+      value: com.baidu.yuedu:id/useraccount_title
+      
+    -
+      name: 我的_我的阅读记录
+      by: text
+      value: 我的阅读记录
+      
+    -
+      name: 我的_我的收藏
+      by: text
+      value: 我的收藏
+      
+    -
+      name: 我的_我的购买
+      by: text
+      value: 我的购买
+      
+    -
+      name: 我的_在线反馈
+      by: id
+      value: com.baidu.yuedu:id/item_content
+    
+    -
+      name: 圈子
+      by: text
+      value: 圈子
+      
+    -
+      name: 书架
+      by: text
+      value: 书架
+      
+    -
+      name: 书城_搜索
+      by: text
+      value: 搜索
+
+    

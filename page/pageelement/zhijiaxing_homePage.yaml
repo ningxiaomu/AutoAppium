@@ -1,0 +1,8 @@
+homePage:
+  desc: 进入APP的首页
+  locators:
+    -
+      name: 首页
+      by: text
+      value: 首页
+

@@ -1,0 +1,12 @@
+loadingPage:
+  desc: 进入APP的加载页面
+  locators:
+    -
+      name: 华为移动服务_取消
+      by: text
+      value: 取消
+
+    -
+      name: 马上体验
+      by: id
+      value: com.yesway.mobile:id/imv_anfi_use_now

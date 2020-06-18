@@ -1,0 +1,6 @@
+
+- APK: 自驾行
+  info: 
+    appPackage: com.yesway.mobile
+    appActivity: com.yesway.mobile.SplashActivity
+    startActivity: .home.NewMainActivity

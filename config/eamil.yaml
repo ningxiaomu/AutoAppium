@@ -1,0 +1,18 @@
+#[email]
+#sender = hzezparking@sina.com
+#subject = 自动化测试报告
+#smtpserver = smtp.sina.cn
+#username = hzezparking@sina.com
+#password = qwer123456
+#to_addrs=luobo@ezparking.com.cn,luo52638487@163.com
+info: 
+    - hzezparking@sina.com
+    - 自动化测试报告
+    - smtp.sina.cn
+    - hzezparking@sina.com
+    - qwer123456
+    - 
+      - 664952305@qq.com
+      - luobo@ezparking.com.cn
+      - luo52638487@163.com
+      

@@ -1,0 +1,50 @@
+Level_3:
+  desc: VIP专区→规则详情,第三级界面
+  locators: 
+    -
+      name: VIP_规则详情_帮助中心
+      by: desc
+      value: 1. 如何开通图书VIP会员？
+      
+    -
+      name: VIP_古代言情_更多
+      by: id
+      value: com.baidu.yuedu:id/h5Title
+      
+    -
+      name: VIP_开通_收银台
+      by: id
+      value: com.baidu.yuedu:id/title_tv
+      
+    -
+      name: 在线反馈_如何充值阅读币_解决了
+      by: desc
+      value: 解决了
+      
+    -
+      name: 在线反馈_如何充值阅读币_如何充值阅读币
+      by: id
+      value: question_tit
+      
+    -
+      name: 我的收藏_购物车_删除
+      by: id
+      value: com.baidu.yuedu:id/del_good
+      
+    -
+      name: 我的收藏_购物车_去书城逛逛
+      by: id
+      value: com.baidu.yuedu:id/go_to_online
+      
+    -
+      name: 我的收藏_购物车_删除_确定
+      by: id
+      value: com.baidu.yuedu:id/positive
+      
+
+  #desc: 百度钱包收银台,第三级界面
+  #locators: 
+    #-
+      #name: VIP_开通_收银台
+      #by: id
+      #value: com.baidu.yuedu:id/title_tv

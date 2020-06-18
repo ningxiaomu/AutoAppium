@@ -1,0 +1,22 @@
+- desc: 逍遥模拟器
+  port: 4723
+  desired_caps: 
+    platformName: Android
+    deviceName: 127.0.0.1:21503
+    platformVersion: 5.1.1
+    noReset: !!bool True
+    appPackage: com.yesway.mobile
+    appActivity: com.yesway.mobile.SplashActivity
+
+- desc: 小米5手机
+  port: 4723
+  desired_caps: 
+    platformName: Android
+    deviceName: xiaomi-mi_5_9a762346
+    platformVersion: 6.0.1
+    noReset: !!bool True
+    appPackage: com.baidu.yuedu
+    appActivity: com.baidu.yuedu.splash.SplashActivity
+    unicodeKeyboard: !!bool True       
+    resetKeyboard: !!bool True 
+    #automationName: Uiautomator2
